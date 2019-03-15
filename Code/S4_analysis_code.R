@@ -7,7 +7,6 @@ n <- stop-start+1
 nimp <- 40
 
 packages <- paste0("/home/z3312911/RPackages/")
-# packages <- paste0("C:/Users/z3312911/Cloudstor/R Library")
 .libPaths(packages)
 
 load(paste0(args[3],"seeds.RData"))
