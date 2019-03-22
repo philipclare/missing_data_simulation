@@ -1,10 +1,10 @@
-# Comparison of methods for adjusting for exposure-affected time-varying confounding in the presence of missing data – a Monte-Carlo simulation study
+# Comparison of methods for adjusting for exposure-affected time-varying confounding in the presence of missing data â€“ a Monte-Carlo simulation study
 ## Stata and R Analysis Code
 
 This repository contains the Stata and R code used in the missing data simulation by Clare et al. 2019
 
 The Stata code creates a series of quasi-random datasets (3 different datasets were used in the simulation) using a pre-specified data structure.
-Analysis code runs all analyses on those datasets, and saves the results. Note that the code is written to run on the UNSW Katana cluster computer, which uses a sheduler to sequentially call the R script and pass it the particular iterations of the data to be processed in each step. To run the code on a standard computer, the code can be edited so the parameters passed by the Katana scheduler are defined internally.
+Analysis code runs all analyses on those datasets, and saves the results. Note that the code is written to run on the UNSW Katana cluster computer, which uses a scheduler to sequentially call the R script and pass it the particular iterations of the data to be processed in each step. To run the code on a standard computer, the code can be edited so the parameters passed by the Katana scheduler are defined internally.
 
 | Description | Code |
 | --- | --- |
