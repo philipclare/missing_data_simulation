@@ -1,4 +1,4 @@
-# Comparison of methods for adjusting for exposure-affected time-varying confounding in the presence of missing data – a Monte-Carlo simulation study
+# Comparison of methods of adjusting for time-varying confounding under misspecification – A Monte-Carlo simulation study
 ## Stata and R Analysis Code
 
 This repository contains the Stata and R code used in the missing data simulation by Clare et al. 2019
